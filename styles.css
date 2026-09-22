@@ -13,6 +13,9 @@ h2 {
     color: #e87379;
 }
 
+h3 {
+    color: #e87379;
+}
 
 .playlists {
     background-color: rgb(248, 232, 238);
@@ -31,4 +34,21 @@ a:link, a:visited {
 
 a:hover {
     color:rgb(66, 57, 69);
+}
+
+.game {
+    background-color: rgb(248, 232, 238);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.game li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
 }
